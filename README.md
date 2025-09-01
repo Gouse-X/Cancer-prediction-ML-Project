@@ -33,5 +33,9 @@ Includes measurements like:
 3 Scikit-learn
 4 Jupyter Notebook
 
-## Author:
-Gouse
+## Author
+Gouse Baig
+
+## Installation
+```bash
+pip install pandas scikit-learn numpy jupyter
