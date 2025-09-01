@@ -1,36 +1,37 @@
 # Cancer Prediction Project
 
-
 ## Project Overview:
-This project implements a Machine Learning model to predict cancer diagnosis (malignant vs benign) using the Breast Cancer Wisconsin dataset.The implementation uses Logistic Regression and achieves an accuracy of over 95%.
+Machine learning model is used to predict cancer diagnosis and using Logistic Regression on the Breast Cancer Wisconsin dataset.
 
 ## Dataset :
-The dataset contains the features computed from digitized images of fine needle aspirates (FNA) of breast masses.The target variable is the diagnosis (M = malignant, B = benign).
+1. Breast Cancer Wisconsin Diagnostic Dataset.
+2. 569 samples with 30 features each.
+3. Target: Diagnosis (Malignant/Benign).
 
 ## Features:
-The dataset includes 30 features such as:
-1 radius_mean
-2 texture_mean
-3 perimeter_mean
-4 area_mean
-5 smoothness_mean and more.
+Includes measurements like:
+1. radius_mean
+2. texture_mean  
+3. perimeter_mean
+4. area_mean
+5. smoothness_mean
+6. compactness_mean
+7. concavity_mean and more etc,.
 
-## Implementation Steps:
-1. Data Loading and Exploration
-2. Data Preprocessing
-3. Train-Test Split (70% training, 30% testing)
-4. Model Training (Logistic Regression)
-5. Model Evaluation
+## Results:
+* Accuracy: 95.91%.
+* Excellent performance in cancer diagnosis prediction.
 
-## Results :
-* Accuracy: 95.9%
-* Detailed classification report showing precision, recall, and f1-score for both classes.
+## How to Run:
+1. Install requirements: `pip install pandas scikit-learn numpy jupyter`.
+2. Run Jupyter Notebook: `jupyter notebook`.
+3. Open and run `cancer_prediction.ipynb`.
 
-## How to Run
-1. Clone this repository.
-2. Ensure you have Python and Jupyter Notebook installed.
-3. Install required libraries: `pandas`, `scikit-learn`, `numpy`etc,.
-4. Run the Jupyter Notebook `cancer_prediction.ipynb`.
+## Technologies:
+1 Python
+2 Pandas
+3 Scikit-learn
+4 Jupyter Notebook
 
-## Author
-Gouse Baig
+## Author:
+Gouse
